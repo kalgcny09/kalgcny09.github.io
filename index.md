@@ -1,5 +1,5 @@
 #this is the home page
 
 {% for post in site.posts %}
-1.[{{ post.test.post }}] ({{ post.url }})
+1.[{{ post.testpost }}] ({{ post.url }})
 {% endfor %}
